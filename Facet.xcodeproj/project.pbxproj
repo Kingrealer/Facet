@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F55CC62086122700FBD683 /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F55CC52086122700FBD683 /* EmotionViewController.swift */; };
+		81F55CC8208621A700FBD683 /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F55CC7208621A700FBD683 /* BlinkingFaceViewController.swift */; };
+		EA7D30D92073A04600CC2621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D30D82073A04600CC2621 /* AppDelegate.swift */; };
+		EA7D30DB2073A04600CC2621 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D30DA2073A04600CC2621 /* FaceViewController.swift */; };
+		EA7D30DE2073A04600CC2621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7D30DC2073A04600CC2621 /* Main.storyboard */; };
+		EA7D30E02073A04600CC2621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7D30DF2073A04600CC2621 /* Assets.xcassets */; };
+		EA7D30E32073A04600CC2621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7D30E12073A04600CC2621 /* LaunchScreen.storyboard */; };
+		EA7D30EC2073A14900CC2621 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D30EB2073A14900CC2621 /* FaceView.swift */; };
+		EA936E14207CD6B000C2AC8C /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA936E13207CD6B000C2AC8C /* FacialExpression.swift */; };
+		EAE8B0EF208F3E95001FA3CE /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8B0EE208F3E95001FA3CE /* EyeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81F55CC52086122700FBD683 /* EmotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
+		81F55CC7208621A700FBD683 /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingFaceViewController.swift; sourceTree = "<group>"; };
+		EA7D30D52073A04600CC2621 /* Facet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7D30D82073A04600CC2621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA7D30DA2073A04600CC2621 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		EA7D30DD2073A04600CC2621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA7D30DF2073A04600CC2621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA7D30E22073A04600CC2621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA7D30E42073A04600CC2621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7D30EB2073A14900CC2621 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		EA936E13207CD6B000C2AC8C /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		EAE8B0EE208F3E95001FA3CE /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7D30D22073A04600CC2621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7D30CC2073A04600CC2621 = {
+			isa = PBXGroup;
+			children = (
+				EA7D30D72073A04600CC2621 /* Facet */,
+				EA7D30D62073A04600CC2621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7D30D62073A04600CC2621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7D30D52073A04600CC2621 /* Facet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7D30D72073A04600CC2621 /* Facet */ = {
+			isa = PBXGroup;
+			children = (
+				EA936E13207CD6B000C2AC8C /* FacialExpression.swift */,
+				EA7D30EA2073A05600CC2621 /* support */,
+				EA7D30DA2073A04600CC2621 /* FaceViewController.swift */,
+				EA7D30DC2073A04600CC2621 /* Main.storyboard */,
+				81F55CC52086122700FBD683 /* EmotionViewController.swift */,
+				81F55CC7208621A700FBD683 /* BlinkingFaceViewController.swift */,
+				EA7D30EB2073A14900CC2621 /* FaceView.swift */,
+				EAE8B0EE208F3E95001FA3CE /* EyeView.swift */,
+			);
+			path = Facet;
+			sourceTree = "<group>";
+		};
+		EA7D30EA2073A05600CC2621 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				EA7D30D82073A04600CC2621 /* AppDelegate.swift */,
+				EA7D30DF2073A04600CC2621 /* Assets.xcassets */,
+				EA7D30E12073A04600CC2621 /* LaunchScreen.storyboard */,
+				EA7D30E42073A04600CC2621 /* Info.plist */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7D30D42073A04600CC2621 /* Facet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7D30E72073A04600CC2621 /* Build configuration list for PBXNativeTarget "Facet" */;
+			buildPhases = (
+				EA7D30D12073A04600CC2621 /* Sources */,
+				EA7D30D22073A04600CC2621 /* Frameworks */,
+				EA7D30D32073A04600CC2621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facet;
+			productName = Facet;
+			productReference = EA7D30D52073A04600CC2621 /* Facet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7D30CD2073A04600CC2621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = liuvv;
+				TargetAttributes = {
+					EA7D30D42073A04600CC2621 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA7D30D02073A04600CC2621 /* Build configuration list for PBXProject "Facet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7D30CC2073A04600CC2621;
+			productRefGroup = EA7D30D62073A04600CC2621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7D30D42073A04600CC2621 /* Facet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7D30D32073A04600CC2621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7D30E32073A04600CC2621 /* LaunchScreen.storyboard in Resources */,
+				EA7D30E02073A04600CC2621 /* Assets.xcassets in Resources */,
+				EA7D30DE2073A04600CC2621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7D30D12073A04600CC2621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8B0EF208F3E95001FA3CE /* EyeView.swift in Sources */,
+				EA7D30DB2073A04600CC2621 /* FaceViewController.swift in Sources */,
+				EA936E14207CD6B000C2AC8C /* FacialExpression.swift in Sources */,
+				81F55CC8208621A700FBD683 /* BlinkingFaceViewController.swift in Sources */,
+				EA7D30D92073A04600CC2621 /* AppDelegate.swift in Sources */,
+				81F55CC62086122700FBD683 /* EmotionViewController.swift in Sources */,
+				EA7D30EC2073A14900CC2621 /* FaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA7D30DC2073A04600CC2621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7D30DD2073A04600CC2621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA7D30E12073A04600CC2621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7D30E22073A04600CC2621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA7D30E52073A04600CC2621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA7D30E62073A04600CC2621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7D30E82073A04600CC2621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Facet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.jlu.liuvv.Facet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA7D30E92073A04600CC2621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Facet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.jlu.liuvv.Facet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7D30D02073A04600CC2621 /* Build configuration list for PBXProject "Facet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7D30E52073A04600CC2621 /* Debug */,
+				EA7D30E62073A04600CC2621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7D30E72073A04600CC2621 /* Build configuration list for PBXNativeTarget "Facet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7D30E82073A04600CC2621 /* Debug */,
+				EA7D30E92073A04600CC2621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7D30CD2073A04600CC2621 /* Project object */;
+}
